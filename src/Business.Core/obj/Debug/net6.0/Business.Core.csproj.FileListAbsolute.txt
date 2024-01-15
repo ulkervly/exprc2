@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\bin\Debug\net6.0\Business.Core.deps.json
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\bin\Debug\net6.0\Business.Core.dll
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\bin\Debug\net6.0\Business.Core.pdb
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.dll
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\refint\Business.Core.dll
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.pdb
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\ref\Business.Core.dll
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\bin\Debug\net6.0\Business.Core.runtimeconfig.json
+C:\Users\hp\Desktop\prcs\Business\src\Business.Core\obj\Debug\net6.0\Business.Core.genruntimeconfig.cache
