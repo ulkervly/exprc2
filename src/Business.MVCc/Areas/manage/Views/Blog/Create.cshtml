@@ -1,0 +1,36 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid"> 
+    <h1> Create Blog:</h1>
+</div>
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="@Model.Name">Name</label>
+            <input asp-for="@Model.Name" type="text" class="form-control">
+            <span asp-validation-for="@Model.Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Description">Description</label>
+            <input asp-for="@Model.Description" type="text" class="form-control">
+            <span asp-validation-for="@Model.Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Author">Author</label>
+            <input asp-for="@Model.Author" type="text" class="form-control">
+            <span asp-validation-for="@Model.Author"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ImageFile">ImageFile</label>
+            <input asp-for="@Model.ImageFile" class="form-control">
+            <span asp-validation-for="@Model.ImageFile"></span>
+        </div>
+        B
+        <button type="submit" class="btn btn-primary">Create</button>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    </form>
+</div>
+

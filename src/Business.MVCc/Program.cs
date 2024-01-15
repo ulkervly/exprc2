@@ -1,16 +1,30 @@
 using Businees.Data.DAL;
 using Businees.Data.ServiceRegistration;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddRepositories();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer("Server = LAPTOP-N2MJ83JU\\SQLEXPRESS;Database=BusinessExam;Trusted_Connection=True");
 });
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequireDigit = true;
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireNonAlphanumeric = true;
+    opt.Password.RequireUppercase = true;
+
+    opt.User.RequireUniqueEmail = false;
+
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 var app = builder.Build();
 

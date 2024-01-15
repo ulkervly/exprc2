@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hp\Desktop\prcs\Business\src\Business.MVCc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hp/Desktop/prcs/Business/src/Business.MVCc/Areas/manage/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXEJsb2dcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/Desktop/prcs/Business/src/Business.MVCc/Areas/manage/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXEJsb2dcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
