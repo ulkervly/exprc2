@@ -13,6 +13,7 @@ namespace Business.Busines.Services.Interfaces
         Task CreateAsync(Blog blog);
         Task UpdateAsync(Blog blog);
         Task DeleteAsync(int id);
+        Task SoftDelete(int id);
         Task<Blog> GetByExprssion(Expression<Func<Blog,bool>>?expression=null,params string[]? includes);
         Task<List<Blog>> GetAllAsync(Expression<Func<Blog,bool>>?expression=null,params string[]? includes);
     }
